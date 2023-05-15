@@ -11,3 +11,6 @@ describe("Valor por hora", () => {
     expect(result).toEqual(29);
   });
 });
+
+
+//COmo tem que ficar

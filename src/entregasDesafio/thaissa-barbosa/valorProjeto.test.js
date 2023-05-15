@@ -24,3 +24,6 @@ describe("Valor do projeto", () => {
     expect(result).toEqual(3696);
   });
 });
+
+
+//COmo tem que ficar
