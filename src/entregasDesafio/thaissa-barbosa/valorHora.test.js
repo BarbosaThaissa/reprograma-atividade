@@ -4,7 +4,7 @@ const {
 
 describe("Valor por hora", () => {
   test("retorna o valor arredondado dado o valor recebido no mês", () => {
-    const valorPorMes = 5000
+    const valorPorMes = 5000;
 
     const result = calcularValorPorHora(valorPorMes);
 
@@ -12,5 +12,13 @@ describe("Valor por hora", () => {
   });
 });
 
-
 //COmo tem que ficar
+describe("Valor por hora", () => {
+  test("retorna o valor arredondado correto", () => {
+    const valorPorMes = 5000;
+
+    const result = calcularValorPorHora(valorPorMes);
+
+    expect(result).toBe(29);
+  });
+});
